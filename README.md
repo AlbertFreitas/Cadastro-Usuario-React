@@ -1,12 +1,37 @@
-# React + Vite
+# ⚛️ Frontend - Cadastro de Usuários com React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é o frontend do sistema de cadastro de usuários, desenvolvido em **React.js**. Ele consome uma API Node.js e permite cadastrar, listar e excluir usuários de forma simples e moderna.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- React.js
+- Axios
+- React Router DOM
+- Styled-components (ou CSS)
+- Vite (ou Create React App)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Como rodar o projeto
+
+### 1. Clone o repositório
+git clone https://github.com/AlbertFreitas/Cadastro-Usuario-React.git
+cd Cadastro-Usuario-React
+
+## Instale as dependências
+npm install
+
+## Inicie o servidor de desenvolvimento
+npm run dev ** A aplicação será executada em http://localhost:5173 (ou como indicado no terminal)
+
+🔌 Conectando com o backend 
+Este frontend se conecta à API criada no repositório:
+👉 https://github.com/AlbertFreitas/NODE.JS-CADASTRO-USUARIOS
+
+Certifique-se de que a API está rodando em http://localhost:3000.
+
+👤 Autor
+Feito por Albert Freitas
+GitHub | LinkedIn
